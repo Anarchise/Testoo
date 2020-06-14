@@ -1,0 +1,48 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Anarchy MW.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Application.cpp
+  dllmain.cpp
+  centity_s.cpp
+  characterInfo_t.cpp
+  Client.cpp
+D:\1-My Stuffs\Stuff\Modern Warfare\Anarchy\Testo\Game\Client\Client.cpp(21,14): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'DWORD', possible loss of data
+D:\1-My Stuffs\Stuff\Modern Warfare\Anarchy\Testo\Game\Client\Client.cpp(22,14): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'DWORD', possible loss of data
+  Local.cpp
+  Cryptography.cpp
+  ESP.cpp
+  Game.cpp
+D:\1-My Stuffs\Stuff\Modern Warfare\Anarchy\Testo\vendors\ida\defs.h(113,1): warning C4005: 'LOBYTE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(206): message : see previous definition of 'LOBYTE'
+D:\1-My Stuffs\Stuff\Modern Warfare\Anarchy\Testo\vendors\ida\defs.h(114,1): warning C4005: 'LOWORD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(204): message : see previous definition of 'LOWORD'
+D:\1-My Stuffs\Stuff\Modern Warfare\Anarchy\Testo\vendors\ida\defs.h(116,1): warning C4005: 'HIBYTE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(207): message : see previous definition of 'HIBYTE'
+D:\1-My Stuffs\Stuff\Modern Warfare\Anarchy\Testo\vendors\ida\defs.h(117,1): warning C4005: 'HIWORD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(205): message : see previous definition of 'HIWORD'
+  GfxViewport.cpp
+  Graphics.cpp
+  lerpFrame_t.cpp
+  refdef_t.cpp
+  RefdefView.cpp
+  XAnimEntry.cpp
+  XAnimParent.cpp
+  XAnimTree.cpp
+  XAnim_s.cpp
+  Math.cpp
+  Vector2.cpp
+  Compiling...
+  Vector3.cpp
+  Hook.cpp
+  Process.cpp
+  Sys.cpp
+  Timer.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx12.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1065 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Anarchise.vcxproj -> D:\1-My Stuffs\Stuff\Modern Warfare\Anarchy\Testo\x64\Release\Testo.dll

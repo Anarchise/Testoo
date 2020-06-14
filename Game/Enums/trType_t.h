@@ -1,0 +1,22 @@
+#pragma once
+
+enum class trType_t
+{
+    TR_STATIONARY = 0x0,
+    TR_INTERPOLATE = 0x1,
+    TR_LINEAR = 0x2,
+    TR_LINEAR_STOP = 0x3,
+    TR_SINE = 0x4,
+    TR_GRAVITY = 0x5,
+    TR_LOW_GRAVITY = 0x6,
+    TR_ACCELERATE = 0x7,
+    TR_DECELERATE = 0x8,
+    TR_PHYSICS = 0x9,
+    TR_ANIMATED_MOVER = 0xA,
+    TR_FIRST_RAGDOLL = 0xB,
+    TR_RAGDOLL = 0xB,
+    TR_RAGDOLL_GRAVITY = 0xC,
+    TR_RAGDOLL_INTERPOLATE = 0xD,
+    TR_LAST_RAGDOLL = 0xD,
+    NUM_TRTYPES = 0xE,
+};
